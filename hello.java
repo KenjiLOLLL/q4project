@@ -1,11 +1,11 @@
 import java.util.Scanner;
 import javax.swing.*;
 
-class structure {
-
-
+class Student {
 
     public static void main(String args[]) {
+
+
 
     }
     
@@ -13,13 +13,16 @@ class structure {
 }
 
 
+
 class gui{
-    public static void main(String args[]){
-       JFrame frame = new JFrame("Voting Program (Testing)");
-       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-       frame.setSize(300,300);
-       JButton button = new JButton("Login to your account");
-       frame.getContentPane().add(button); // Adds Button to content pane of frame
-       frame.setVisible(true);
-    }
+      public static void main(String args[]){
+           JFrame frame = new JFrame("My First GUI");
+           frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+           frame.setSize(1000,1000);
+          JButton button1 = new JButton("Button 1");
+          JButton button2 = new JButton("Button 2");
+          frame.getContentPane().add(button1);
+          frame.getContentPane().add(button2);
+          frame.setVisible(true);
+     }
 }
